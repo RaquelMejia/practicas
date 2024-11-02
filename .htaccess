@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteBase /practicas/
+
+# Si la solicitud no apunta a un archivo existente (-f) y no apunta a un directorio existente (-d), redirige a index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [L]
+
+
+
+
