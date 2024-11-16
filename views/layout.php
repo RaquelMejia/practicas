@@ -91,6 +91,7 @@
                 <li class="nav-item d-none d-lg-block"> <a class="nav-link" href="/materias">Materias</a></li>
                 <li class="nav-item"> <a class="nav-link" href="#">Alumnos</a></li>
                 <li class="nav-item d-none d-lg-block"> <a class="nav-link" href="#">Docentes</a></li>
+                <li class="nav-item d-none d-lg-block"> <a class="nav-link" href="#">Matriculas</a></li>
               </ul>
             </div>
 
@@ -119,8 +120,7 @@
             <div class="collapse" id="page-usuarios">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item d-none d-lg-block"> <a class="nav-link" href="#">Gestión Usuarios</a></li>
-                <li class="nav-item d-none d-lg-block"> <a class="nav-link" href="#">Gestión de permisos</a></li>
-                <li class="nav-item d-none d-lg-block"> <a class="nav-link" href="#">Gestión de Grupos</a></li>
+                <li class="nav-item d-none d-lg-block"> <a class="nav-link" href="/grupos">Gestión de Grupos</a></li>
               </ul>
             </div>
           </li>
